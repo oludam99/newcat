@@ -1,0 +1,46 @@
+{% extends "labwork.html" %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block content %}
+<h1>Animal Cost</h1>
+<link href="/static/css/color.css" rel="stylesheet">
+<div class = "container">
+    <style>
+        table, td, td {
+        border:1px solid black;
+        border-collapse:collapse;
+        padding: 12px;
+        text-align: center;
+        }
+        h1 {
+        text-align: left;
+        color: green;
+        }
+    </style>
+    <table>
+        <tr>
+            <td>Dog Cost </td>
+            <td>Cat Cost </td>
+            <td>Bird Cost</td>
+        </tr>
+        <tr>
+            <td>Labrador retriever: $2,250</td>
+            <td>American Short: $1200 </td>
+            <td>Parakeet: $70 </td>
+        </tr>
+        <tr>
+            <td>Bulldog: $3,000 </td>
+            <td>Persian: $5000</td>
+            <td>Cockatiel: $250</td>
+        </tr>
+        <tr>
+            <td>Golden Retriever: $4,000</td>
+            <td>Maine Coon: $1000</td>
+            <td>Canaries: $150</td>
+        </tr>
+    </table>
+</div>
+{% endblock %}

@@ -1,0 +1,26 @@
+body {
+    background-image: url('imaging.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+
+}
+p{
+font-size: 15;
+}
+
+a:link, a:visited{
+    color: purple;
+    text-decoration: underlined;
+}
+
+ul{
+color: green;
+}
+
+
+ol{
+color: black;
+}
+
+

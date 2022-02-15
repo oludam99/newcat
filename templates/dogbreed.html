@@ -1,0 +1,60 @@
+{% extends "labwork.html" %}
+{% block head %}
+
+{% endblock %}
+
+{% block content %}
+<div class="dog">
+    <h1>Dog Breed</h1>
+    <img src="{{url_for('static', filename='dozzo 2.jpg')}}" />
+    <ul><li><a href="/table"><h3>Cost Table</h3></a></li></ul>
+    <body>
+    <p>
+        <b>One of the most faithful and helpful animals on the earth is a dog.
+        Dogs consist of four feet for running and jumping.
+        They have two eyes, ears, and one tail, which makes  <!--info for dog -->
+        them look beautiful.The stunning look of a dog also consists of
+        one major part that is sharp teeth. Dogs can run very fast.
+        Thus, they can help you to exercise more. They can eat large
+        amounts of meat, milk, green vegetables, fruits, rice, fish,
+            and many other things.</b>
+    </p>
+    <h2> The best 5 types of dog breed </h2> <!-- h2 for type of dog-->
+    <ol>
+        <li><a href="
+        https://www.akc.org/dog-breeds/labrador-retriever/"><h4>Labrador Retriever</h4></a></li>
+        <li> <a href="
+        https://www.akc.org/dog-breeds/bulldog/"><h4>Bulldog</h4></a></li>
+        <li><a href="
+        https://www.akc.org/dog-breeds/golden-retriever/"><h4>Golden Retriever</h4></a></li>
+        <li><a href="
+        https://www.akc.org/dog-breeds/beagle/"><h4>Beagle</h4></a></li>
+        <li><a href="
+        https://www.akc.org/dog-breeds/pug/"><h4>Pug</h4></a></li>
+
+    </ol>
+    <h2>View Other Breed </h2>
+    <ul>
+        <li>
+            <a href="/catbreed"><h3>View Cat Breed</h3></a>
+        </li>                                                    <!-- links for other breed-->
+
+        <li>
+            <a href="/birdbreed"><h3>View Bird Breed</h3></a>
+        </li>
+
+        <li>
+            <a href="/logout"><h3>Log Out</h3></a>
+        </li>
+
+
+    </ul>
+    <p> <b>Remember: Dog are man's best friend</b>b<br>
+        <b>Can they bite you for a box of fresh cooked bone? Sure</b>
+    </p>
+
+    <h2>Date: {{date}}<br>Time: {{time}}
+    </h2>
+    </body>
+</div>
+{% endblock %}
