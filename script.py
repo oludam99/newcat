@@ -29,7 +29,7 @@ from wtforms import Form, StringField,  PasswordField, validators
 from passlib.hash import sha256_crypt
 
 
-DTA = 'dta.txt'
+DTA = 'dta.txt' alagah
 
 app = Flask(__name__)
 
