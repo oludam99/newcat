@@ -33,7 +33,7 @@ DTA = 'dta.txt'
 
 app = Flask(__name__)
 
-app.secret_key = "jZzrXNyfXbzYFy0pkxUtYqr3ZoVis0jb"
+app.secret_key = " enter your secret key here"
 
 
 def validate_password(password):
