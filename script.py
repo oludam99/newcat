@@ -1,7 +1,6 @@
 """
 
 
-Instructor: johnson kyle
 
 Project: Lab  #7
 
