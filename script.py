@@ -1,6 +1,5 @@
 """
 
-Course: Sdev 300
 
 Instructor: johnson kyle
 
