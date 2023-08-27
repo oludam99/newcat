@@ -3,7 +3,6 @@
 
 
 
-Date: May 04 2021
 
 
 This program uses the flask web framework to develop a web page.
