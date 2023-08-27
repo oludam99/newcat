@@ -1,5 +1,4 @@
 """
-Name: Ikumoluyi  Oluwadamilare
 
 Course: Sdev 300
 
