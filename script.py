@@ -40,8 +40,8 @@ def already_r(username):
     """check for already registered username"""
     with open(DTA, "r") as dta:
         for record in dta:
-            d_username, d_password = record.split()
-            d_password = d_password + "nothing"
+            item = record.split()
+            d_username = item[0]
             if d_username == username:
                 return True
     return False
@@ -169,4 +169,4 @@ def logout():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0")
