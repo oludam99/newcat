@@ -1,10 +1,4 @@
 """
-
-
-
-
-
-
 This program uses the flask web framework to develop a web page.
 To get this program working, I must import flask and render template
 from the flask library, so I can use them to run each html template created.
@@ -175,4 +169,4 @@ def logout():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host="127.0.0.2", port=8014)
+    app.run(debug=True)
