@@ -1,9 +1,5 @@
 """
 This program uses the flask web framework to develop a web page.
-To get this program working, I must import flask and render template
-from the flask library, so I can use them to run each html template created.
-In this program I created three individual routes which are linked to the
-main html file, and I use render template to call each html file.
 In the (.PY) path I added two folder named static and template;
 the template folder consists of html files while the static contains
 the CSS file and background image. I also imported the date & time from
