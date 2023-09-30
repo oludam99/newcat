@@ -1,6 +1,5 @@
 """
 This program uses the flask web framework to develop a web page.
-date time, so I could add the date function to my web page. Lastly,
 the script.py file contains all the main python code. """
 
 from datetime import datetime
