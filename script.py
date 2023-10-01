@@ -1,9 +1,5 @@
 """
 This program uses the flask web framework to develop a web page.
-In the (.PY) path I added two folder named static and template;
-the template folder consists of html files while the static contains
-the CSS file and background image. I also imported the date & time from
-date time, so I could add the date function to my web page. Lastly,
 the script.py file contains all the main python code. """
 
 from datetime import datetime
